@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# 在这里添加你的命令，比如运行lint
+pnpm lint
+npx --no-install commitlint -e $HUSKY_GIT_PARAMS

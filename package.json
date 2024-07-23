@@ -1,0 +1,29 @@
+{
+  "name": "React18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.jsx,.tsx --fix --quiet ./packages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/parser": "^7.16.1",
+    "commitizen": "^4.3.0",
+    "eslint-plugin,": "link:@typescript-eslint/eslint-plugin,",
+    "husky": "^9.1.1",
+    "prettier": "^3.3.3",
+    "rollup": "^4.19.0",
+    "typescript": "^5.5.3"
+  }
+}
