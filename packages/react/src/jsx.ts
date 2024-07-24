@@ -13,7 +13,7 @@ const ReactElement = function (type: Type, key: Key, ref: Ref, props: Props): Re
 	}
 	return element; 
 };
-
+// 这块主要是从config中拆数据，变成ReactElement的模样
 export const jsx = (type: ElementType, config: any, ...maybeChildren: any) => {
 	let key: Key = null;
 	const props: Props = {};
